@@ -1,6 +1,10 @@
 ![DSC CIET](Images/logo.png)
 ---
-# HacktoberFest-2020
+# [HacktoberFest-2020](https://hacktoberfest.digitalocean.com/)
+|[Click here to visit official Hactoberfest Website!](https://hacktoberfest.digitalocean.com/)|
+|---|
+
+
 
 Official Repository by **DSC CIET** for Hacktoberfest.
 
