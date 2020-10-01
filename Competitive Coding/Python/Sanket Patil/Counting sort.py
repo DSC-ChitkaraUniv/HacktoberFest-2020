@@ -3,6 +3,7 @@ Count sort.
 Outperforms the default sorting routine when the range of values is reasonably bounded.
 '''
 
+
 def count_sort(a):
     mn, mx = float('inf'), -float('inf')
     for x in a:
