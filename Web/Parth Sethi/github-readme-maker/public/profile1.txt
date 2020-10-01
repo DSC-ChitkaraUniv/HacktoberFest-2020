@@ -1,0 +1,14 @@
+### Hey there, I'm [Parth Sethi]("https://parthsethi.me/") 👋
+##### MERN stack, App Develpoment, Bots & Automation, CLI tools/scripts etc.
+---
+Newbie trying everything, i like making telegram bots, mobile apps, web scarpping, making/working with API(s) and automating stuff..
+
+While I keep busy grasping and learning new tech, I still make time to develop new applications sometime creation's of my mind but most of the time inspired from other's work. Love Open Source Community for that ❤️.
+
+##### Connect with me:
+[website]("https://parthsethi.me/")
+[twitter]("https://twitter.com/victorakaps")
+[instagram]("https://instagram.com/_parth.sethi_")
+[linkedin]("https://linkedin.com/in/victorakaps")
+[facebook]("https://facebook.com/victorakaps") 
+[telegram]("https://t.me/victorakaps")
