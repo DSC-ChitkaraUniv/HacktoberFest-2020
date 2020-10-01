@@ -2,6 +2,7 @@
 
 Finds longest common subsequence of two arrays.
 
+
 '''
 
 #########################################################################
@@ -31,13 +32,3 @@ def lcs(a, b):
 
 
 #########################################################################
-
-
-
-'''    Verification test    '''
-if __name__ == "__main__":
-    for a in [[-1,2,-3,4,-5,5], [-1,-2,-3], [], [0], [2, -2, 1, 2, -1, 3, -1, -1, -1]]:
-        for b in [[-1,2,-3,4,-5,5], [-1,-2,-3], [], [0], [2, -2, 1, 2, -1, 3, -1, -1, -1]]:
-            if a<=b:
-                print('Longest common subsequence of:\n    {:s}\n    {:s}'.format(str(a), str(b)))
-                print('is: {:s}\n'.format(str(lcs(a,b))))
