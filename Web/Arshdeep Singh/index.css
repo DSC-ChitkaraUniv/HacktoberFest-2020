@@ -1,0 +1,7 @@
+#unique-name img {
+    padding-left:0px;
+    padding-right:0px;
+    /* Modifiying the below lines would help you achieve same height for the 2 columns */
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+}
