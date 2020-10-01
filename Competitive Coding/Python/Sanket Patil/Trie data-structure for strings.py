@@ -35,13 +35,3 @@ def count_prefix(prefix):
         temp = temp[c][1]
     return n
 #########################################################################
-
-
-
-
-
-
-'''    Verification test    '''
-if __name__ == "__main__":
-    # Passed https://www.hackerrank.com/challenges/contacts/problem
-    pass
