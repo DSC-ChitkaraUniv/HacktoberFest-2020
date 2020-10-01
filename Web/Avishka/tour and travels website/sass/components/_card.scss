@@ -1,0 +1,135 @@
+.card {
+
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 52rem;
+
+    &_side {
+        height: 52rem;
+        transition: all .8s ease;
+        color: #ddd;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        box-shadow: 0 1.5rem 2rem rgba($color-black, .15);
+        border-radius: 3px;
+        overflow: hidden;
+
+        &-front {
+            background-color: $color-white;
+        }
+
+        &-back {
+            transform: rotateY(180deg);
+
+            &-1 {
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            }
+
+            &-2 {
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+            }
+
+            &-3 {
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+            }
+        }
+    }
+
+    &:hover &_side-front {
+        transform: rotateY(-180deg);
+    }
+
+    &:hover &_side-back {
+        transform: rotateY(0);
+    }
+
+    &_picture {
+        background-size: cover;
+        height: 23rem;
+        background-blend-mode: screen;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+        
+        &-1 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../king%20room.jpg);
+        }
+
+        &-2 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../king%20room.jpg);
+        }
+
+        &-3 {
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../king%20room.jpg);
+        }
+    }
+    &_heading{
+    font-size: 2.8rem;
+        position: absolute;
+        top: 12rem;
+        right: 2rem;
+        color: $color-white;
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: 300;
+        width: 72%;
+        
+    }
+    &_heading-span{
+        padding: 1rem 1.5rem;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        &-1{
+            background-image: linear-gradient(to right,rgba($color-secondary-light,.85),rgba($color-secondary-dark,.85))
+        }
+        &-2{
+            background-image: linear-gradient(to right,rgba($color-primary-light,.85),rgba($color-primary-dark,.85))
+        }
+        &-3{
+            background-image: linear-gradient(to right,rgba($color-tertiary-light,.85),rgba($color-tertiary-dark,.85))
+        }
+    }
+    &_details{
+        padding: 3rem;
+        ul{
+            list-style: none;
+            width: 80%;
+            margin: 0 auto;
+            li{
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+                &:not(:last-child){
+                    border-bottom: 1px solid $color-grey-light-2;
+                }
+            }
+        }
+    }
+    
+    &-cta{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        text-align: center;
+    }
+    &_price-box{
+        text-align: center;
+        color: $color-white;
+        margin-bottom: 8rem;
+    }
+    &_price-only{
+        font-size: 1.5rem;
+        text-transform: uppercase; 
+    }
+    &_price-value{
+        font-size: 6rem;
+        font-weight: 100;
+    }
+}
