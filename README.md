@@ -18,7 +18,7 @@ Get your free T-shirt with us ;)
 
 
 # Projects in which you can contribute
-[Projects for Contribution](https://github.com/search?q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues) -- Check out here
+[Projects Repo from UIET to contribute](https://github.com/DSC-UIET/Hacktoberfest) -- Check out here
 
 # Getting started with git
 [Git Tutorial](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)
