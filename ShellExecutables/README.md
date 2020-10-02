@@ -13,7 +13,7 @@ Get your free T-shirt with us ;)
 # Rules
 1. Raise an issue and get it assigned before making any PR.
 2. Use proper file names and also squash your commits.
-3. Add the single coding file inside the respective language folder.
+3. Add the single coding file inside the folder.
 4. Do not repeat a code.
 
 <div align="center">
