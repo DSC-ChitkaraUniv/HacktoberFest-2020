@@ -1,26 +1,43 @@
+# Clever Programmer ReactJS Portfolio Template      
 
-Official Repository by **DSC CIET** for Hacktoberfest.
+## 👇 WATCH THIS FIRST 👇
+## https://tinyurl.com/customizeReactPortfolio
 
-Get your free T-shirt with us ;)
+![ReactJS Resume Website Template](resume-screenshot.png?raw=true "ReactJS Resume Website Template")
 
-# What is HacktoberFest
- Hacktoberfest is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
+## <a href="https://compassionate-leakey-e9b16b.netlify.app/">LIVE DEMO</a>
 
-1. Hacktoberfest is a celebration open to everyone in our global community.
-2. Pull requests can be made in any GitHub-hosted repositories/projects.
-3. You can sign up anytime between October 1 and October 31.
+## Description
+This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever 
 
-# Rules
-  Create a folder with you'r name and add your one page portfolio html file in it and create a PR.
+## Make it Your Own!
+#### PREREQUISITES:
+- Sign up for a Netlify account <a href='https://www.netlify.com'>HERE</a>
+- Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
+#### PROCEDURE:
+- Download the zip folder from Github and unzip it
+Here is the link to download zip 👉
+<a href='https://github.com/CleverProgrammers/react-portfolio'>HERE</a>
+- Open the folder in VS Code
+- Edit <code>public/resumeData.json</code> and add your personal details and projects
+- Open terminal in VS Code
+- RUN <code>npm init</code> , this command can be used to set up a new or existing npm package
+- RUN <code>npm install</code> , this command pulls out all the require node modules
+- RUN <code>npm run build</code>, this command will create a build folder for you
+- DRAG AND DROP the BUILD folder on Netlify, your app is live now for the world to see
 
-<div align="center">
-<h1 align="center">Social Handle</h1>
-  <a href="https://www.instagram.com/dsc_ciet/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-  <a href="https://twitter.com/dscciet" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
-  <a href="https://dsccietcommunity.slack.com/join/shared_invite/zt-ht5oy31g-Cj~Ib0AklnA9AZdlwCs8JA#/" target="_blank"><img src="https://img.icons8.com/color/50/000000/slack-new.png"/></a>
-  <a href="https://www.facebook.com/Google-Developers-967415219957038/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
-  <a href="https://www.youtube.com/googledevelopers" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
-  <a href="mailto: dscciet@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-  <a href="https://dsc.community.dev/chitkara-university-punjab/" target="_blank"><img src="Images/dsc.png"/></a>
 
-</div>
+## Credits
+
+#### All Credits Goes to Tim Baker <a href='https://github.com/tbakerx/react-resume-template'>Original Repo</a>
+
+
+
+HTML Design Template
+<a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a>
+
+Header photo credit
+<a href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Casey Horner</a>
+
+Testimonial photo credit
+<a href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Samuel Zeller</a>
