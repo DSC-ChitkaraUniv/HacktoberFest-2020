@@ -34,35 +34,37 @@ int c=sc.nextInt();
 		 arr[i][j]=sc.nextInt();
 	 }
  }
-    int r1=0,c1=0;
-    while(r1<r&&c1<c)
+    int minr=0,minc=0;
+    int maxr=r-1,maxc=c-1;
+    int tne=r*c;
+    int counter=0;
+    
+    while(counter<tne)
     {
-      for(int i=c1;i<c;i++)
+      for(int j=minc;j<maxc+1 && counter<tne;j++)
       {
-        System.out.println(arr[r1][i]);
+        System.out.print(arr[minr][j]+" ");
+        counter++;
       }
-     r1++;
-      for(int i=r1;i<r;i++)
+      minr++;
+      for(int i=minr;i<maxr+1 && counter<tne;i++)
       {
-        System.out.println(arr[i][c-1]);
+        System.out.print(arr[i][maxc]+" ");
+        counter++;
       }
-      c--;
-      if(r1<r)
-      {
-        for(int i=c-1;i>=c1;i--)
-        {
-          System.out.println(arr[r-1][i]);
+      maxc--;
+      for(int j=maxc;j>minc-1 && counter<tne;j--)
+       {
+          System.out.print(arr[maxr][j]+" ");
+          counter++;
         }
-        r--;
+      maxr--;
       }
-      if(c1<c)
+      for(int i=maxr;i>minr-1 && counter<tne;i--)
       {
-        for(int i=r-1;i>=r1;i--)
-        {
-          System.out.println(arr[i][c1]);
-        }
-        c1++;
+          System.out.print(arr[i][minc]+" ");
+          counter++;
       }
-    }
+      minc++;
+      }
   }
-}
