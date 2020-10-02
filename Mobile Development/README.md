@@ -23,6 +23,6 @@ Get your free T-shirt with us ;)
   <a href="https://www.facebook.com/Google-Developers-967415219957038/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
   <a href="https://www.youtube.com/googledevelopers" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
   <a href="mailto: dscciet@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-  <a href="https://dsc.community.dev/chitkara-university-punjab/" target="_blank"><img src="Images/dsc.png"/></a>
+  <a href="https://dsc.community.dev/chitkara-university-punjab/" target="_blank"><img src="../Images/dsc.png"/></a>
 
 </div>

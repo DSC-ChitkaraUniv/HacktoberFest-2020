@@ -15,7 +15,7 @@ Get your free T-shirt with us ;)
 
 # Rules
   * To earn your Hacktoberfest t-shirt or tree reward, you must register and make four valid pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate. This year, the first 70,000 participants who successfully complete the challenge will be eligible to receive a prize.
-  * Check the rules in the Read Me of the individual folders you want to contribute to.
+  * Check the rules in the ReadMe of the individual folders you want to contribute to.
 
 # Projects in which you can contribute
 [Projects Repo from UIET to contribute](https://github.com/DSC-UIET/Hacktoberfest) -- Check out here
