@@ -11,7 +11,10 @@ Get your free T-shirt with us ;)
 3. You can sign up anytime between October 1 and October 31.
 
 # Rules
-  Create a folder with you'r name and add your code files in it and create a PR.
+1. Raise an issue and get it assigned before making any PR.
+2. Use proper file names and also squash your commits.
+3. Add the single coding file inside the respective language folder.
+
 
 <div align="center">
 <h1 align="center">Social Handle</h1>
