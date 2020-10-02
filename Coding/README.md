@@ -14,7 +14,7 @@ Get your free T-shirt with us ;)
 1. Raise an issue and get it assigned before making any PR.
 2. Use proper file names and also squash your commits.
 3. Add the single coding file inside the respective language folder.
-
+4. Do not repeat a code.
 
 <div align="center">
 <h1 align="center">Social Handle</h1>
@@ -24,6 +24,6 @@ Get your free T-shirt with us ;)
   <a href="https://www.facebook.com/Google-Developers-967415219957038/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
   <a href="https://www.youtube.com/googledevelopers" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
   <a href="mailto: dscciet@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-  <a href="https://dsc.community.dev/chitkara-university-punjab/" target="_blank"><img src="Images/dsc.png"/></a>
+  <a href="https://dsc.community.dev/chitkara-university-punjab/" target="_blank"><img src="../Images/dsc.png"/></a>
 
 </div>
