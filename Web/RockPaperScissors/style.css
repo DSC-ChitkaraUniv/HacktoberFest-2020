@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --main-font: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: #116B94;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+header>h1 {
+    color: #083950;
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 4.2rem;
+}
+
+.scoreBoard {
+    margin: 3.5rem auto;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+    width: 25rem;
+    font-size: 4.5rem;
+    padding: 1.5rem 2rem;
+    font-family: var(--main-font);
+    position: relative;
+}
+
+.badge {
+    background-color: #083950;
+    padding: 0.4rem 1rem;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-family: var(--main-font);
+}
+
+#user-label {
+    position: absolute;
+    top: 3rem;
+    left: -2.5rem;
+}
+
+#computer-label {
+    position: absolute;
+    top: 3rem;
+    right: -3.2rem;
+}
+
+.result {
+    width: 100%;
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.result>p {
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+.choices {
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem 2rem;
+    transition: all 0.4s ease;
+}
+
+.choice>img {
+    max-width: 15rem;
+    height: auto;
+    transition: all 0.4s ease;
+}
+
+.choice:hover {
+    background-color: #083950;
+    cursor: pointer;
+}
+
+.choice:hover>img {
+    transform: scale(0.8);
+}
+
+#action-message {
+    font-family: var(--main-font);
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.green_glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 1rem #31b43a;
+}
+
+.grey_glow {
+    border: 4px solid #042e42;
+    box-shadow: 0 0 1rem #073347;
+}
+
+.red_glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 1rem #d01115;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+    .result>p {
+        padding: 0 2rem;
+    }
+    .choice>img {
+        max-width: 12rem;
+    }
+}
