@@ -4,15 +4,19 @@ public class StringReverse {
 
 public static void main(String[] args)
 {
-	Scanner sc=new Scanner(System.in);
-	String str=sc.next();
-	String temp=new String();
-	  char s[]=str.toCharArray();
-	  for(int i=0;i<s.length;i++)
-	  {
-	    temp+=s[s.length-1-i];
-	  }
-	  System.out.println(temp);
-  sc.close();
+	String s="    I LOVE JAVA,   THE COFFEE     ";
+		int i=s.length()-1;
+		String ans="";
+		while(i>=0) {
+			while(i>=0 && s.charAt(i)==' ' ) i--;
+			int j=i;
+			if(i<0) break;
+			while(i>=0 && s.charAt(i)!=' ')i--;
+			if(ans.isEmpty())
+			ans=ans.concat(s.substring(i+1,j+1));		//j+1 th character is not included
+			else
+				ans=ans.concat(" "+s.substring(i+1,j+1));
+		}
+		System.out.println(ans);
 }
 }
