@@ -1,0 +1,189 @@
+html,
+body{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navigation_checkbox {
+  display: none; }
+
+.navigation_button {
+  background-color: #fff;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 3rem;
+  right: 4rem;
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer; }
+  @media (max-width: 56.25em) {
+    .navigation_button {
+      top: 4rem;
+      right: 4rem; } }
+  @media (max-width: 37.5em) {
+    .navigation_button {
+      top: 3rem;
+      right: 3rem; } }
+
+.navigation_background {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 3.5rem;
+  right: 5rem;
+  background-image: radial-gradient(#7ed56f, #28b485);
+  z-index: 1000;
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  @media (max-width: 56.25em) {
+    .navigation_background {
+      top: 4.5rem;
+      right: 4.5rem; } }
+  @media (max-width: 37.5em) {
+    .navigation_background {
+      top: 3.5rem;
+      right: 3.5rem; } }
+
+.navigation_nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+.navigation_list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%;overflow: hidden; }
+
+.navigation_item {
+  margin: 1rem; }
+
+.navigation_link:link, .navigation_link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  background-size: 220%;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+  transition: all .4s; }
+  .navigation_link:link span, .navigation_link:visited span {
+    display: inline-block;
+    margin-right: 1.5rem; }
+
+.navigation_link:hover, .navigation_link:active {
+  transform: translateX(1rem);
+  color: #55c57a;
+  background-position: 100%; }
+
+.navigation_checkbox:checked ~ .navigation_background {
+  transform: scale(80); }
+
+.navigation_checkbox:checked ~ .navigation_nav {
+  opacity: 1;
+  width: 100%; }
+
+.navigation_icon {
+  position: relative;
+  margin-top: 3rem; }
+  .navigation_icon, .navigation_icon::before, .navigation_icon::after {
+    height: 2px;
+    width: 3rem;
+    display: inline-block;
+    background-color: #333; }
+  .navigation_icon::after, .navigation_icon::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s; }
+  .navigation_icon::before {
+    top: -.8rem; }
+  .navigation_icon::after {
+    top: .8rem; }
+
+.navigation_button:hover .navigation_icon::before {
+  top: -1rem; }
+
+.navigation_button:hover .navigation_icon::after {
+  top: 1rem; }
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon {
+  background-color: transparent; overflow: hidden;}
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon::before {
+  top: 0;
+  transform: rotate(135deg); }
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon::after {
+  top: 0;
+  transform: rotate(-135deg); }
+
+.section-about {
+  background-color: #f7f7f7;
+  margin-top: -20rem;
+  padding: 26rem 0; }
+
+.section_features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../king%20room.jpg);
+  background-size: cover;
+  transform: skewY(-6deg);
+  margin-top: -9rem; }
+  .section_features > * {
+    transform: skewY(6deg); }
+
+.section-tours {
+  background-color: #f7f7f7;
+  padding: 26rem 0 15rem 0;
+  margin-top: -7rem; }
+
+.section-stories {
+  padding: 15rem 0;
+  position: relative; }
+
+.section_book {
+  padding: 15rem 12rem 15rem 12rem;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+.hero-image{
+    width: 40rem;
+}
+.row{
+    margin-top: 8rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    padding: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    justify-content: center;
+}
+.footer{
+    color: black;
+    padding: 2rem;
+    background-color: #f6f6f6;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-top: 8rem;
+}
+.name{
+color:#28b485;
+}

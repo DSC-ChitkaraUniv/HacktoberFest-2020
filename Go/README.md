@@ -10,10 +10,11 @@ Get your free T-shirt with us ;)
 2. Pull requests can be made in any GitHub-hosted repositories/projects.
 3. You can sign up anytime between October 1 and October 31.
 
-# Rules / Steps
-  * Commit your App files on your own Repositiory.
-  * Create appName.md file and Add your app description and link to your repo in it.
-  * Create a PR with description
+# Rules
+1. Raise an issue and get it assigned before making any PR.
+2. Use proper file names and also squash your commits.
+3. Add the single coding file inside the folders.
+4. Do not repeat a code.
 
 <div align="center">
 <h1 align="center">Social Handle</h1>
