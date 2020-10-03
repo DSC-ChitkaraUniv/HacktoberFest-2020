@@ -7,6 +7,8 @@
   Then it takes the mid point of the range and compares it to required query, if the query is greater than the mid point then the mid point becomes the lowest point
   and if the query is less than the mid point then it becomes highest point, then it repeats the previous steps.
   If the number you searched for isn't in the arrary, then the loop will cause the lowest point to be greater than highest and if it does that we know that there is no such number in array.
+  
+  Note:- If the array is not sorted or it contains duplicate, the algorithm won't work.
 */
 
 //  The following code is compiled using gcc compiler
@@ -36,7 +38,8 @@ int binary_search(int *arr, int len, int key)
 
 int main()
 {
-  int n, key;
+  unsigned int n;
+  int key;
   printf("Enter number of elements in array: ");
   scanf("%d", &n);
   int *arr;
@@ -50,11 +53,11 @@ int main()
   scanf("%d", &key);
   int searched_term = binary_search(arr, n, key);
   if (searched_term == -1)
-  {
     printf("Number not found\n");
-  }
   else
-  {
     printf("Number you searched is on index %d\n", searched_term);
-  }
+
+  free(arr);
+
+  return 0;
 }
