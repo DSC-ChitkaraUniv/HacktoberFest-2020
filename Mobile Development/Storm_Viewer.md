@@ -10,4 +10,4 @@
 
 **Contributed by Neeraj Gupta**
 
-**[Link to Github Repository](https://github.com/Neeraj3508/Tipsy-App)**
+**[Link to Github Repository](https://github.com/Neeraj3508/Storm-Viewer)**
