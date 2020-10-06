@@ -9,5 +9,5 @@ int main() {
         sum+=array[ct];
     }
     
-    printf("Sum of array is %d",sum);
+    printf("Sum of the given array is %d",sum);
 }
