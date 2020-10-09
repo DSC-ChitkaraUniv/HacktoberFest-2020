@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e8ffbb5e68102c64fc7d986f5987160c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5bcbd8b5bc430e8a5a6b35b6b4cd33a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/de2bc318ccdae00b77a573a67d5d090b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5f868f9ede53f62e58d95f9469bfff41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b5b29891b396f8093d8511efae9d37d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/0bcbfecc38b7fb89ee5f8b72edee4a39/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c9f148baf158d8d589ca9ea06d46bec3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ffb8c72f85410f996ef7a56903b0958c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e018cda0ab4b69ed9bec05d432bd03d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/13fd9482e884ae1e3adc7591a9674d36/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/81269645be2ce5f9a4ec6daa3ee46e9d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c1c08d409c4173311132127c6d6d297/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d01ba255f512c79ab135973b4233dfcf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3a80a03bca4643e4da4fb7428ced117f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a8c49256b2b03a769b0dbce95f6da836/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a60ccd9ce41bbbddba13162460e9eb3b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ff52d3d9f099d05270a5a5b0c952fbec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2389dd4059abd082981f6ebd41d9cfbf/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e9daa0def7a86996b7046231e6ae5c6c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2e9aa725eafbc5559cd17e38834a622b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c0b1912f77b1aa69993cdf4e09b5580e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e8bae40a6992d3a457fe706b63b8af83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3cedaa7016a393c6ac7e71fc4fed8140/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+	package
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:15:5-38:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c1c08d409c4173311132127c6d6d297/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c1c08d409c4173311132127c6d6d297/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2389dd4059abd082981f6ebd41d9cfbf/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2389dd4059abd082981f6ebd41d9cfbf/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c1c08d409c4173311132127c6d6d297/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:17:9-39
+	android:icon
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:18:9-43
+	android:name
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:16:9-57
+activity#co.appbrewery.bmicalculator.MainActivity
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:19:9-37:20
+	android:launchMode
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:25:13-55
+	android:configChanges
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:23:13-137
+	android:theme
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:20:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:30:13-32:40
+	android:value
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:32:17-37
+	android:name
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:31:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e8ffbb5e68102c64fc7d986f5987160c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e8ffbb5e68102c64fc7d986f5987160c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5bcbd8b5bc430e8a5a6b35b6b4cd33a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5bcbd8b5bc430e8a5a6b35b6b4cd33a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/de2bc318ccdae00b77a573a67d5d090b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/de2bc318ccdae00b77a573a67d5d090b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5f868f9ede53f62e58d95f9469bfff41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5f868f9ede53f62e58d95f9469bfff41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b5b29891b396f8093d8511efae9d37d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b5b29891b396f8093d8511efae9d37d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/0bcbfecc38b7fb89ee5f8b72edee4a39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/0bcbfecc38b7fb89ee5f8b72edee4a39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c9f148baf158d8d589ca9ea06d46bec3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c9f148baf158d8d589ca9ea06d46bec3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ffb8c72f85410f996ef7a56903b0958c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ffb8c72f85410f996ef7a56903b0958c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e018cda0ab4b69ed9bec05d432bd03d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e018cda0ab4b69ed9bec05d432bd03d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/13fd9482e884ae1e3adc7591a9674d36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/13fd9482e884ae1e3adc7591a9674d36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/81269645be2ce5f9a4ec6daa3ee46e9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/81269645be2ce5f9a4ec6daa3ee46e9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c1c08d409c4173311132127c6d6d297/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c1c08d409c4173311132127c6d6d297/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d01ba255f512c79ab135973b4233dfcf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d01ba255f512c79ab135973b4233dfcf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3a80a03bca4643e4da4fb7428ced117f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3a80a03bca4643e4da4fb7428ced117f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a8c49256b2b03a769b0dbce95f6da836/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a8c49256b2b03a769b0dbce95f6da836/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a60ccd9ce41bbbddba13162460e9eb3b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a60ccd9ce41bbbddba13162460e9eb3b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ff52d3d9f099d05270a5a5b0c952fbec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ff52d3d9f099d05270a5a5b0c952fbec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2389dd4059abd082981f6ebd41d9cfbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2389dd4059abd082981f6ebd41d9cfbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e9daa0def7a86996b7046231e6ae5c6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e9daa0def7a86996b7046231e6ae5c6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2e9aa725eafbc5559cd17e38834a622b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2e9aa725eafbc5559cd17e38834a622b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c0b1912f77b1aa69993cdf4e09b5580e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c0b1912f77b1aa69993cdf4e09b5580e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e8bae40a6992d3a457fe706b63b8af83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e8bae40a6992d3a457fe706b63b8af83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3cedaa7016a393c6ac7e71fc4fed8140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/sujeet/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3cedaa7016a393c6ac7e71fc4fed8140/AndroidManifest.xml:20:5-44
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sujeet/Desktop/FLUTTER/bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml
