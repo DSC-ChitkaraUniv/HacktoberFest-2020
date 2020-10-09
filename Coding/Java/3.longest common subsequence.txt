@@ -1,0 +1,42 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GFG
+ {
+	public static void main (String[] args)
+	 {
+	 //code
+	    Scanner sc=new Scanner(System.in);
+	    
+	    int t=sc.nextInt();
+	    
+	    while(t-->0){
+    	    int a,b;
+    	    a=sc.nextInt();
+    	    b=sc.nextInt();
+    	    String s1,s2;
+    	    s1=sc.next();
+    	    s2=sc.next();
+    	    
+    	    int dp[][]=new int[a+1][b+1];//0
+    	    
+    	    char X[]=s1.toCharArray();
+    	    char Y[]=s2.toCharArray();
+    	    
+    	    for(int i=1;i<=a;i++){
+    	        for(int j=1;j<=b;j++){
+    	            if(X[i-1]==Y[j-1])
+    	            {
+    	                dp[i][j]=dp[i-1][j-1]+1;
+    	            }
+    	            else
+    	            {
+    	                dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1]);
+    	            }
+    	        }
+    	    }
+    	    System.out.println(dp[a][b]);
+	    }
+	    
+	 }
+}

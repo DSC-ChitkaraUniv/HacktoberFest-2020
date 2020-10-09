@@ -1,4 +1,0 @@
-#Thu Oct 03 22:03:28 IST 2019
-base.0=/Users/sujeet/Desktop/Flutter/bmi-calculator-flutter/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
