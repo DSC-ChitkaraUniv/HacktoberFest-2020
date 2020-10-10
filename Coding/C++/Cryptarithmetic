@@ -1,0 +1,126 @@
+#include<bits/stdc++.h>
+using namespace std;
+// int isCheck(int*arr,string s1,string s2,string s3,int carry)
+// {
+//     for(int i=0;i<s3.size();i++)
+//     {
+//         int x=0,y=0;
+//         if(s1.size()-(i+1)>=0)
+//         {
+//             x=arr[s1[s1.size()-(i+1)]-'a'];
+//             // cout<<"x "<<x<<
+//         }
+//         if(s2.size()-(i+1)>=0)
+//         {
+//             y=arr[s2[s2.size()-(i+1)]-'a'];
+//         }
+//         int ans=x+y+carry;
+//         // cout<<"x "<<x<<" y "<<y<<endl;
+//         if(ans%10!=arr[s3[s3.size()-(i+1)]-'a'])
+//         return false;
+//         carry=ans/10;
+        
+//     }
+//     cout<<"ashu"<<endl;
+//     return true;
+// }
+int getNum(string s1,int*arr)
+{
+    int t=10;
+    int ans=0;
+    // for(int i=0;i<s1.size();i++)
+    // cout<<arr[s1[i]-'a'];
+    // cout<<endl;
+    for(int i=0;i<s1.size();i++)
+    {
+        ans=ans*t+(arr[s1[i]-'a']);
+        // if(arr[s1[i]-'a']!=0&&i!=0)
+        
+        // cout<<ans<<" "<<arr[s1[i]-'a']<<endl;
+    }
+    return ans;
+}
+void Cryptarithmetics(string unique,string s1,string s2,string s3,bool*brr,int *arr,int index)
+{
+    
+    if(index==unique.size())
+    {
+        int n1=getNum(s1,arr);
+        int n2=getNum(s2,arr);
+        int n3=getNum(s3,arr);
+        // cout<<"ashu"<<endl;
+        // cout<<n1+n2<<" "<<n3<<endl;
+        if(n1+n2==n3)
+        {
+            for(int i=0;i<26;i++)
+            {
+                char ch=i+'a';
+                if(arr[i]!=-1)
+                cout<<ch<<"-"<<arr[i]<<" ";
+            }
+            cout<<endl;
+        }
+        return ;
+    }
+    // cout<<"unique"<<unique[index]<<endl;
+   
+    for(int i=0;i<10;i++)
+    {
+        if(!brr[i])
+        {
+        brr[i]=true;
+        arr[unique[index]-'a']=i;
+        Cryptarithmetics(unique,s1,s2,s3,brr,arr,index+1);
+        brr[i]=false;
+        arr[unique[index]-'a']=-1;
+        }
+    }
+    //  for(int i=0;i<26;i++)
+    // {
+    //     char ch=i+'a';
+    //     cout<<ch<<"-"<<arr[i]<<" ";
+    // }
+    // cout<<endl;
+}
+int main()
+{
+    string s1,s2,s3;
+    cin>>s1>>s2>>s3;
+    string unique="";
+    unordered_set<char> set1;
+    for(int i=0;i<s1.size();i++)
+    {
+        if(set1.find(s1[i])==set1.end())
+        {
+        unique=unique+s1[i];
+        set1.insert(s1[i]);
+        }
+        
+    }
+    for(int i=0;i<s2.size();i++)
+    {
+        if(set1.find(s2[i])==set1.end())
+        {
+        unique=unique+s2[i];
+        set1.insert(s2[i]);
+        }
+        
+    }
+    for(int i=0;i<s3.size();i++)
+    {
+        if(set1.find(s3[i])==set1.end())
+        {
+        unique=unique+s3[i];
+        set1.insert(s3[i]);
+        }
+        
+    }
+    bool *brr=new bool[10];
+    for(int i=0;i<10;i++)
+    brr[i]=false;
+    int *arr=new int[26];
+    for(int i=0;i<26;i++)
+    arr[i]=-1;
+    // cout<<unique<<endl;
+    Cryptarithmetics(unique,s1,s2,s3,brr,arr,0);
+}
