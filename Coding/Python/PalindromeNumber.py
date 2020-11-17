@@ -1,11 +1,20 @@
-num=int(input("Enter a number:"))
-temp=num
-rev=0
-while(num>0):
-    dig=num%10
-    rev=rev*10+dig
-    num=num//10
-if(temp==rev):
-    print("The number is palindrome!")
-else:
-    print("Not a palindrome!")
+import math
+
+# reversing the number
+def rev(num):
+    return int(num != 0) and ((num % 10) * \
+             (10 ** int(math.log(num, 10))) + \
+                              rev(num // 10))
+
+# getting input
+print("Enter the Number to be Checked : ")
+number = int(input())
+
+# checking whether reversed number = input number
+res = number == rev(number)
+
+# printing result
+if res:
+    print("The number is Palindrome !")
+elif not res:
+    print('The number is Not Palindrome !')
