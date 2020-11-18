@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="check1.css">
+<script src="check2.js"></script>
+<body>
+	<div class="row divPay">
+  <div class="column c1">
+    <h2 style="margin-bottom: 10px;">Summary</h2>
+
+    <img src="https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg" class="imgResumen">
+
+    
+
+  </div>
+  <div class="column c2">
+
+    <h2 style="margin-bottom: 10px;">Payment</h2>
+
+    <div class="card" id="divCard">
+      <div class='card-content'>
+        <img style="display: none" id="imgFranchise" class="logoFranquicia">
+        <div class="infoTarjeta">
+          <h5>Card Number</h5>
+          <h6 id="cardNumber">0000 0000 0000 0000</h6>
+          <h5>Expiration<span class="cvvStyle">CVV</span></h5>
+          <h6><span id="cardMonth">00</span> / <span id="cardYear">0000</span><span class="cvvStyle2" id="cardCVV">000</span></h6>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div style="width: 100%;margin: auto;">
+      <div style="width: 50%;display: inline-block;"><b>Cardholder</b></div>
+      <input type="text" id="pagarTarjetaTit" placeholder="Cardholder" maxlength="16" style="width: 100%">
+    </div>
+
+    <div style="width: 100%;margin: auto;">
+      <div style="width: 50%;display: inline-block;"><b>Card Number</b></div>
+      <input type="text" id="pagarTarjetaNum" placeholder="Eg. 1111222233334444" style="width: 100%" maxlength="16" oninput="showCN()">
+    </div>
+
+    <div style="width: 100%;margin: auto;">
+      <div style="width: 50%;display: inline-block;"><b>Expiration</b></div>
+
+      <div class="row">
+        <div class="column">
+          <div style="width: 100%;display: inline-block;"><b>Month</b></div>
+          <input type="number" id="pagarTarjetaMes" placeholder="Eg. 03" min="01" max="12" style="width: 80%" oninput="showCE()">
+        </div>
+        <div class="column">
+          <div style="width: 100%;display: inline-block;"><b>Year</b></div>
+          <input type="number" id="pagarTarjetaAno" placeholder="Eg. 2024" min="2020" max="2100" style="width: 80%" oninput="showCE()">
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 100%;margin: auto;">
+      <div style="width: 50%;display: inline-block;"><b>CVV</b></div>
+      <input type="password" id="pagarTarjetaCVV" placeholder="Eg. 123" min="001" max="9999" style="width: 50%" oninput="showCV()">
+    </div>
+
+    <button  title="Make payment">Make payment</button>
+
+  </div>
+</div>
+
+<br>
+
+
+</body>
+</html>
